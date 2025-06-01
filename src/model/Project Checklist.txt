@@ -1,0 +1,86 @@
+
+| Technique                                                                  | Yes  | No   |
+| -------------------------------------------------------------------------- | ---- | ---- |
+| Handle Missing Values                                                      | \[ ] | \[ ] |
+| Normalize / Standardize Input Features                                     | \[ ] | \[ ] |
+| Encode Categorical Variables (One-Hot, Label Encoding)                     | \[ ] | \[ ] |
+| Shuffle and Split Data (Train, Validation, Test Sets)                      | \[ ] | \[ ] |
+| Sequence Padding (for time-series or NLP)                                  | \[ ] | \[ ] |
+| Augmentation                                                               | \[ ] | \[ ] |
+| Embeddings (Pre-trained or Learned)                                        | \[ ] | \[ ] |
+| - Categorical variables are embedded (e.g., in NLP or recommender systems) | \[ ] | \[ ] |
+| - Pre-trained word embeddings (e.g., Word2Vec, GloVe)                      | \[ ] | \[ ] |
+| Data Sampling                                                              | \[ ] | \[ ] |
+| Tokenization                                                               | \[ ] | \[ ] |
+| Is there a different method you used?                                      | \[ ] | \[ ] |
+
+| Technique                                                 | Yes  | No   |
+| --------------------------------------------------------- | ---- | ---- |
+| Number of Layers                                          | \[ ] | \[ ] |
+| Number of Neurons per Layer                               | \[ ] | \[ ] |
+| Activation Functions (ReLU, Sigmoid, Tanh, Softmax, etc.) | \[ ] | \[ ] |
+| Layer Types (Dense, Convolutional, LSTM, etc.)            | \[ ] | \[ ] |
+| Regularization (Dropout, L1/L2)                           | \[ ] | \[ ] |
+| Encoder / Decoder Architecture                            | \[ ] | \[ ] |
+| Transformer Architecture                                  | \[ ] | \[ ] |
+| Self-attention, additive attention, multi-head attention  | \[ ] | \[ ] |
+| Residual Connections, Layer Norm                          | \[ ] | \[ ] |
+| Is there a different architecture design you used?        | \[ ] | \[ ] |
+
+| Technique                                       | Yes  | No   |
+| ----------------------------------------------- | ---- | ---- |
+| Feature Scaling (StandardScaler, MinMaxScaler)  | \[ ] | \[ ] |
+| Embedding for Categorical Variables             | \[ ] | \[ ] |
+| Polynomial or Interaction Terms (if meaningful) | \[ ] | \[ ] |
+| Flattening or Reshaping Input                   | \[ ] | \[ ] |
+| Domain-Specific Feature Extraction              | \[ ] | \[ ] |
+| Is there a different method you used?           | \[ ] | \[ ] |
+
+| Technique                                        | Yes  | No   |
+| ------------------------------------------------ | ---- | ---- |
+| Batch Size                                       | \[ ] | \[ ] |
+| Number of Epochs                                 | \[ ] | \[ ] |
+| Learning Rate                                    | \[ ] | \[ ] |
+| Optimizer (SGD, Adam, RMSProp, etc.)             | \[ ] | \[ ] |
+| Loss Function (Cross-Entropy, MSE, MAE, etc.)    | \[ ] | \[ ] |
+| Early Stopping Criteria                          | \[ ] | \[ ] |
+| Transfer Learning Strategy                       | \[ ] | \[ ] |
+| Is there a different training strategy you used? | \[ ] | \[ ] |
+
+| Technique                                      | Yes  | No   |
+| ---------------------------------------------- | ---- | ---- |
+| Hyperparameter Tuning (Grid, Random, Bayesian) | \[ ] | \[ ] |
+| Learning Rate Scheduling                       | \[ ] | \[ ] |
+| Model Checkpointing                            | \[ ] | \[ ] |
+| Data Augmentation (for generalization)         | \[ ] | \[ ] |
+| Transfer Learning (if applicable)              | \[ ] | \[ ] |
+| Is there a different tuning method you used?   | \[ ] | \[ ] |
+
+| Technique                    | Yes  | No   |
+| ---------------------------- | ---- | ---- |
+| Dropout                      | \[ ] | \[ ] |
+| Early Stopping               | \[ ] | \[ ] |
+| Data Augmentation            | \[ ] | \[ ] |
+| Simplified Architecture      | \[ ] | \[ ] |
+| Regularization (L1, L2)      | \[ ] | \[ ] |
+| Is there a different method? | \[ ] | \[ ] |
+
+| Technique                                    | Yes  | No   |
+| -------------------------------------------- | ---- | ---- |
+| Loss/Accuracy Curves                         | \[ ] | \[ ] |
+| Comparison                                   | \[ ] | \[ ] |
+| Confusion Matrix Visualization               | \[ ] | \[ ] |
+| Model Summary                                | \[ ] | \[ ] |
+| Grad-CAM / Saliency Maps (for CNNs)          | \[ ] | \[ ] |
+| Feature Importance (Permutation, SHAP, LIME) | \[ ] | \[ ] |
+| Activation Histograms / Layer Outputs        | \[ ] | \[ ] |
+| Is there a different method?                 | \[ ] | \[ ] |
+
+| Technique                                          | Yes  | No   |
+| -------------------------------------------------- | ---- | ---- |
+| Model Export (TensorFlow SavedModel, ONNX, etc.)   | \[ ] | \[ ] |
+| Lightweight Conversion (TensorFlow Lite, CoreML)   | \[ ] | \[ ] |
+| API Integration (Flask, FastAPI)                   | \[ ] | \[ ] |
+| Real-time Inference Needs                          | \[ ] | \[ ] |
+| Model Monitoring in Production                     | \[ ] | \[ ] |
+| Is there a different deployment strategy you used? | \[ ] | \[ ] |
