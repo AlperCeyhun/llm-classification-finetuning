@@ -7,12 +7,13 @@ export default function Home() {
     toast.success('Button clicked!');
   }
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-black text-white">
+    <div className="flex flex-col items-center justify-center h-screen">
       <Toaster
         position="bottom-right"
         toastOptions={{
           style: {
-            background: "#111",
+            background: "gray",
+            border: "1px solid white",
             color: "#fff",
           },
         }}
