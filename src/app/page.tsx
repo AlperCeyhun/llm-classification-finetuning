@@ -3,8 +3,8 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div>
-
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-500 text-black">
+      Main Page
     </div>
   );
 }
