@@ -25,10 +25,7 @@ cd llm-classification-finetuning
 Run the model and CSV API servers from the Python backend:
 
 ```bash
-# In one terminal
 python src/model/csv-endpoint.py
-
-# If you have another script for model endpoint
 python src/model/model-endpoint.py
 ```
 
