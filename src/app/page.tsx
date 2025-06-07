@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import toast, { Toaster } from 'react-hot-toast';
 
 export default function Home() {
@@ -17,8 +17,8 @@ export default function Home() {
             border: "1px solid white",
             color: "#fff",
           },}}/>
-      <h1 className="text-4xl font-bold mb-4">Welcome to My App</h1>
-      <p className="text-lg mb-8 text-gray-300">This is a simple example of a Next.js app with Tailwind CSS.</p>
+      <h1 className="text-4xl font-bold mb-4">LLM Response preference prediction</h1>
+      <p className="text-lg mb-8 text-gray-300">From a large dataset of double responses for a user prompt, we are trying to predict the general user preference.</p>
       <button className="px-6 py-2 bg-gray-800 text-white rounded hover:bg-gray-700 transition"onClick={handleClick}>Go to Test Page</button>
     </div>
   );

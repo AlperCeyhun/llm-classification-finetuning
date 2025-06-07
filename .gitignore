@@ -41,4 +41,4 @@ yarn-error.log*
 next-env.d.ts
 
 # train.csv
-src/model/train.csv
+public/model/train.csv
