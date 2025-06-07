@@ -11,7 +11,7 @@ const CsvTable = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:5000/api/csv')
+    fetch('http://127.0.0.1:5001/api/csv')
       .then((res) => res.json())
       .then((json) => {
         setData(json);
