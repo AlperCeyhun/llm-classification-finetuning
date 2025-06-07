@@ -4,14 +4,13 @@ interface PredictionInput {
   responseB: string;
 }
 
-export async function getPrediction(input: PredictionInput): Promise<string[] | null> {
+export async function getPrediction(input: PredictionInput): Promise<number[] | null> {
   try {
     const response = await fetch('http://localhost:5000/predict', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      // Send the entire input object (prompt, responseA, responseB)
       body: JSON.stringify(input),
     });
 
@@ -20,8 +19,9 @@ export async function getPrediction(input: PredictionInput): Promise<string[] | 
     }
 
     const data = await response.json();
-    // Assuming the Flask endpoint returns {'prediction': ['class_label']}
-    return data.prediction;
+    // Assuming the Flask endpoint returns {'prediction': [[probA, probB, probTie]]}
+    // If so, return the first element of the array
+    return data.prediction[0] as number[];
   } catch (error) {
     console.error("Error fetching prediction:", error);
     return null;

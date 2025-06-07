@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import DisplayRow from '@/components/DisplayRow';
+import PredictResult from '@/components/DisplayPredict';
 
 export default function Home() {
   const router = useRouter();
@@ -42,8 +43,15 @@ export default function Home() {
           onClick={handlePredict}>
             Get Random Prediction
           </button>
-          <div className="w-full max-w-xl mt-8 mx-auto px-4">
-            <DisplayRow row={randomRow} />
+          <div className="w-full max-w-4xl mt-8 mx-auto px-4">
+            <div className="flex flex-row gap-6 items-start">
+              <div className="flex-1">
+                <DisplayRow row={randomRow} />
+              </div>
+              <div className="flex-1">
+                <PredictResult row={randomRow} />
+              </div>
+            </div>
           </div>
       </div>
     </div>
