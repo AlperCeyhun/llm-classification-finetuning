@@ -42,7 +42,7 @@ const PredictResult: React.FC<PredictResultProps> = ({ row }) => {
   if (!row) return null;
 
   return (
-    <div className="mt-6 w-full max-w-2xl bg-gray-800 text-white rounded p-4 shadow">
+    <div className="mt-8 w-full max-w-2xl bg-gray-800 text-white rounded p-4 shadow">
       {loading && <div className="mb-2">Predicting...</div>}
       {error && <div className="text-red-400 mb-2">{error}</div>}
       {prediction && (
