@@ -7,7 +7,7 @@ export default function Home() {
   const router = useRouter();
   const handleClick = () => {
     toast.success('Button clicked!');
-    router.push('/test');
+    router.push('/dataset');
   }
   return (
     <div className="flex flex-col items-center justify-center h-screen">
@@ -19,7 +19,7 @@ export default function Home() {
           },}}/>
       <h1 className="text-4xl font-bold mb-4">LLM Response preference prediction</h1>
       <p className="text-lg mb-8 text-gray-300">From a large dataset of double responses for a user prompt, we are trying to predict the general user preference.</p>
-      <button className="px-6 py-2 bg-gray-800 text-white rounded hover:bg-gray-700 transition"onClick={handleClick}>Go to Test Page</button>
+      <button className="px-6 py-2 bg-gray-800 text-white rounded hover:bg-gray-700 transition"onClick={handleClick}>View Dataset</button>
     </div>
   );
 }

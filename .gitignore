@@ -42,3 +42,4 @@ next-env.d.ts
 
 # train.csv
 public/model/train.csv
+src/model/train.csv
