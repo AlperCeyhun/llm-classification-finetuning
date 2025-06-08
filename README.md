@@ -1,22 +1,64 @@
-# llm-classification-finetuning
-frontend layer of llm classification finetuning project
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# LLM Classification Finetuning
 
-First, run the development server:
+> ✨ A frontend layer built with **Next.js** and **Tailwind CSS** for visualizing and interacting with LLM classification finetuning data.
+
+---
+
+## 🧠 Project Overview
+
+This project provides a interface to view and work with CSV datasets used in fine-tuning large language models (LLMs). It connects to Python backend endpoints for serving CSV data and model functionality.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/llm-classification-finetuning.git
+cd llm-classification-finetuning
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Start the Backend
+
+Run the model and CSV API servers from the Python backend:
+
+```bash
+python src/model/csv-endpoint.py
+python src/model/model-endpoint.py
+```
+
+Make sure Flask is installed, and CORS is enabled.
+
+### 3. Start the Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
+
+---
+
+---
+
+## 📦 Dependencies
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Flask](https://flask.palletsprojects.com/)
+- [Pandas](https://pandas.pydata.org/)
+- [PapaParse](https://www.papaparse.com/) (for optional frontend CSV parsing)
+
+---
+
+## 📚 Resources
 
 - [Next.js Documentation](https://nextjs.org/docs)
-- [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying)
+- [Flask Documentation](https://flask.palletsprojects.com/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+
+---
